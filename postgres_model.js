@@ -1,7 +1,7 @@
 
-var pg_port=1212;
-var pg_host="gitguardians.com:9082/BLUDB";
-var pg_user="root";
-var pg_pass="sup3rstr0ngpass1ForGG";
+var pg_port=config.HIDDEN_PORT;
+var pg_host=config.HIDDEN_HOST;
+var pg_user=config.HIDDEN_USER;
+var pg_pass=config.HIDDEN_PASS;
 
-var mongo_uri = "mongodb+srv://testuser:hub24aoeu@gg-is-awesome-gg273.mongodb.net/test?retryWrites=true&w=majority";
+var mongo_uri =config.HIDDEN_URI;
